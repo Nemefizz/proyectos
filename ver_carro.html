@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Carrito</title>
+    
+    <link type="text/css" rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="carro.js">
+</head>
+<body>
+    <div id="bar" class="navbar">
+
+        <div class="dropdown">
+            <a href="direccion.html">SANTA ROSA PARCELA 9, LAMPA</a>
+
+        </div>
+
+
+        <div id="r" class="dropdown">
+            <a href="horarios.html">MAR - DOM 11:00 A 19:00 HRS</a>
+
+        </div>
+    </div>
+
+
+    <div class="navbar">
+
+        <div class="dropdown">
+            <button class="dropbtn">CARRO DE COMPRAS
+                <i class="fa fa-caret-down"></i>
+
+            </button>
+            <div class="dropdown-content">
+                <a href="ver_carro.html">VER CARRO</a>
+                <a href="pago.html">REALIZAR PAGO</a>
+                <a href="historial_compras.html">HISTORIAL DE COMPRAS</a>
+            </div>
+        </div>
+
+        <div id="r" class="dropdown">
+            <button class="dropbtn"> <A style="font-size: 19px;" href="entrar.html">ENTRAR
+                </A>
+                <i class="fa fa-caret-down"></i>
+            </button>
+
+        </div>
+
+
+        <div id="r" class="dropdown">
+            <button class="dropbtn">CATEGORIAS
+                <i class="fa fa-caret-down"></i>
+
+            </button>
+            <div class="dropdown-content">
+                <a href="muebles.html">MUEBLES</a>
+
+                <a href="lineablanca.html">LÍNEA BLANCA</a>
+
+                <a href="dormitorio.html">DORMITORIO</a>
+
+                <a href="bano.html">BAÑO</a>
+
+                <a href="decoracion.html">DECORACIÓN</a>
+
+                <a href="herramientas.html">HERRAMIENTAS</a>
+
+                <a href="exterior.html">EXTERIOR</a>
+
+                <a href="ver_todo.html">VER TODO</a>
+
+            </div>
+        </div>
+        <div id="r" class="dropdown">
+            <button class="dropbtn"> <A style="font-size: 19px;" href="contacto.html">CONTACTO
+                </A>
+                <i class="fa fa-caret-down"></i>
+            </button>
+
+        </div>
+        <div id="r" class="dropdown">
+            <button class="dropbtn"> <A style="font-size: 19px;" href="pantalla_p.html">INICIO
+                </A>
+                <i class="fa fa-caret-down"></i>
+            </button>
+
+        </div>
+        <A href="pantalla_p.html" style="font-size: xx-large;" class="anueva"> OUTLET BURGOS</A>
+    </div>
+    <h1>Carrito de compras</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Imagen</th>
+      <th>Producto</th>
+      <th>Cantidad</th>
+      <th>Precio</th>
+      <th>Eliminar</th>
+    </tr>
+  </thead>
+  <tbody id="tabla-carrito">
+    <!-- Aquí se agregan los productos dinámicamente con JavaScript -->
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="4">Total productos:</td>
+      <td id="total-productos"></td>
+    </tr>
+    <tr>
+      <td colspan="4">Total a pagar:</td>
+      <td id="total-pagar"></td>
+    </tr>
+  </tfoot>
+</table>
+    <script src="carro.js"></script>
+	
+</body>
+</html>
